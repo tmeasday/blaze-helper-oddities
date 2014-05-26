@@ -1,0 +1,15 @@
+<head>
+  <title>blaze-test</title>
+</head>
+
+<body>
+  {{> hello foo='bar' guid='my_guid'}}
+</body>
+
+<template name="hello">
+  <dl>
+    <dt>foo</dt><dd>{{foo}}</dd>
+    <dt>guid</dt><dd>{{guid}}</dd>
+    <dt>kind</dt><dd>{{kind}}</dd>
+  </dl>
+</template>
